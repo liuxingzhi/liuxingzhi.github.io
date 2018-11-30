@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>康娜酱</title>
+    <style type="text/css">
+        img{
+            display: block;
+            margin: auto;
+        }
+
+        .normal {
+
+        }
+
+        .inverse {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("dragon").addEventListener("click", flipme);
+        }
+
+        let count = 0;
+
+        function flipme() {
+            count += 1;
+            if (count % 5 === 0) {
+                alert("変态!");
+            }
+            if (this.className === "normal") {
+                this.className = "inverse";
+            } else {
+                this.className = "normal";
+            }
+        }
+    </script>
+</head>
+<body>
+<img id="dragon" src="imgs/kangna.jpg" alt="康娜酱">
+</body>
+</html>
