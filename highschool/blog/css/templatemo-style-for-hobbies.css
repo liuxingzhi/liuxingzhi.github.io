@@ -1,0 +1,407 @@
+
+a {
+    transition: all 0.3s ease;
+}
+
+body {
+    min-width: 300px;
+}
+
+iframe {
+    border: none;
+    margin: 0;
+    width: 270px;
+    height: 86px;
+}
+
+.paragraph {
+    padding: 1em;
+    word-break: normal;
+}
+
+.events {
+    padding: 0em 2em;
+    word-break: normal;
+}
+
+main {
+    background-color: #eff4e0;
+    z-index: 800;
+}
+
+section figure img {
+    width: 10em;
+    height: 6em;
+}
+
+aside {
+    word-wrap: break-word;
+}
+
+aside, section {
+    color: black;
+}
+
+figure figcaption {
+    text-transform: none;
+    font-size: 60%;
+}
+
+aside figure figcaption {
+    text-transform: none;
+    font-size: 100%;
+    text-align: center;
+}
+
+figure img {
+    width: 3em;
+}
+
+button:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    color: #0275d8;
+    text-decoration: none;
+    outline: none;
+}
+
+ul, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: url(../img/strip-bg.jpg);
+    color: rgba(255, 255, 255, 0.95);
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 2;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: orange;
+    /*color: black;*/
+}
+
+/*.tm-img { padding: 15px; }*/
+
+#dream {
+    width: 25em;
+}
+
+.tm-footer-text {
+    color: #FFFFFF;
+    margin-top: 3em;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 30px 15px;
+}
+
+.tm-footer a {
+    color: #fff;
+}
+
+.tm-container {
+    background-color: white;
+    /*background-color: #eff4e0;*/
+    padding: 30px 45px;
+    max-width: 1600px;
+}
+
+.navbar-row {
+    position: relative;
+}
+
+.navbar-container {
+    background-color: rgb(150, 63, 10);
+    font-size: 1em;
+    position: absolute;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px;
+    z-index: 1000;
+}
+
+.navbar {
+    color: white;
+    font-size: 1em;
+    padding: 0;
+}
+
+.navbar-container.sticky {
+    background-color: rgb(150, 63, 10);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1000;
+    font-size: 0.6em;
+    padding: 1em 2em;
+}
+
+.navbar-container.sticky .navbar-brand {
+    padding: 0.285em 1em;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    width: 5em;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: white;
+}
+
+.nav-item {
+    float: left;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:focus {
+    color: white;
+    display: block;
+    font-weight: 300;
+    padding: 0.625em 1.43em;
+    transition: all 0.3s ease;
+}
+
+.current-page,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: rgb(150, 105, 10);
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+.copyrights {
+    text-indent: -9999px;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+#tm-page-content {
+    margin-top: 20.55em;
+}
+
+.tm-section {
+    /*	background-position: bottom right;
+        background-size: cover;
+        background-repeat: no-repeat;*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*height: 600px;	*/
+    height: auto;
+}
+
+.tm-footer {
+    /*background-image: url(../img/strip-bg-05.jpg);*/
+    background-color: orange;
+    height: 10em;
+    font-weight: 300;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: block;
+}
+
+/*.tm-section-header {
+	font-weight: 300;
+	margin-bottom: 30px;
+	}*/
+
+
+.blue-text {
+    color: #00599a;
+}
+
+.red-text {
+    color: #882f33;
+}
+
+.gray-text {
+    color: #333333;
+}
+
+.green-text {
+    color: #2A8885;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1400px) {
+    /*.tm-section{top:135px;}*/
+    /*.tm-footer-text {margin-top:4.5em;}*/
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-link:focus {
+        padding: 0.4em 0.8em;
+    }
+
+    .navbar-brand {
+        padding: 0.4em 1em;
+    }
+
+    .navbar-container {
+        font-size: 0.82em;
+        padding: 1.4em 1.8em;
+    }
+
+    #tm-page-content {
+        margin-top: 17.2em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar-container {
+        font-size: 0.6em;
+    }
+
+    .tm-home-right {
+        padding: 80px 50px 50px 60px;
+    }
+
+    #tm-page-content {
+        margin-top: 13.2em;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+
+    /*	.tm-section {
+            display: block;
+            height: auto;
+        }
+        .tm-img { padding: 30px; }*/
+
+}
+
+@media screen and (max-width: 991px) {
+    .paragraph {
+        padding: 2.5em;
+    }
+
+    #tm-page-content {
+        margin-top: 5.5em;
+    }
+
+    .navbar-brand img {
+        display: none;
+    }
+
+    .tm-img {
+        display: none;
+    }
+
+    figure figcaption {
+        font-size: 110%;
+    }
+
+    .navbar-container .navbar-brand {
+        padding: 0.285em 1em;
+    }
+
+    .navbar-nav .nav-item {
+        float: none;
+    }
+
+    .navbar-brand {
+        display: block;
+        float: left;
+        font-size: 2em;
+        width: 10em;
+    }
+
+    .navbar {
+        position: absolute;
+        right: 0;
+        top: 77px;
+        background-color: rgb(97, 48, 19);
+        text-align: right;
+        width: 20em;
+    }
+
+    .navbar-container.sticky .navbar {
+        top: 68px;
+    }
+
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        display: block;
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 892px) {
+    #tm-page-content {
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .tm-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*	.tm-section-header {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+            }*/
+    .tm-home-right {
+        padding: 2em;
+    }
+}
+
