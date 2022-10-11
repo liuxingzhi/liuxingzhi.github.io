@@ -21,10 +21,10 @@ jobs:
         run: |
           echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
 
-  my_second_job:
-    name: My Second Job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test secret format
-      run: |
-        echo ${{ secrets.secret1 }}
+#  my_second_job:
+#    name: My Second Job
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Test secret format
+#      run: |
+#        echo ${{ secrets.secret1 }}
