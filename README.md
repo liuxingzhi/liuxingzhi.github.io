@@ -1,3 +1,4 @@
 # liuxingzhi.github.io
 
-Main page: My personal website written in Jan 2017 in high school.
+Main page: Recent English Study and life experiences.
+Hidden pages: Guitar tab, JS learning, old blogs etc.
