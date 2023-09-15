@@ -1,5 +1,5 @@
 # liuxingzhi.github.io
 
-Main page: Recent English Study and life experiences.
+Main page: Recent English studies and life experiences.
 
-Hidden pages: Guitar tab, JS learning, old blogs etc.
+Hidden pages: Guitar music notes, JS learning, old blogs etc.
